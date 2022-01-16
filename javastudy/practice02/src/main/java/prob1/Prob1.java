@@ -14,7 +14,7 @@ public class Prob1 {
 		for(int i=0; i<10; i++) {
 			arr[i]=num/MONEYS[i]; //갯수(몫)
 			num=num%MONEYS[i]; //나머지
-			System.out.println(MONEYS[i]+"원권 "+arr[i]+"개");
+			System.out.println(MONEYS[i]+"원 권 "+arr[i]+"개");
 		}
 		
 		scanner.close();
